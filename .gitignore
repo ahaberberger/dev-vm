@@ -1,3 +1,4 @@
 /.vagrant
 /config.local
 /files/etc/openldap/slapd.d/
+/files/etc/openldap/slapd.d.tgz
