@@ -1,11 +1,10 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-config = File.expand_path("config", File.dirname(__FILE__))
-localConfig = File.expand_path("config.local", File.dirname(__FILE__))
+config = File.expand_path("../config", __FILE__)
+localConfig = File.expand_path("../config.local", __FILE__)
 load config if File.exists?(config)
 load localConfig if File.exists?(localConfig)
-
 
 # Vagrantfile API/syntax version. Don't touch unless you know what you're doing!
 VAGRANTFILE_API_VERSION = "2"
