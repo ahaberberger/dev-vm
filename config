@@ -1,0 +1,4 @@
+$project_root = "../exchange"
+$private_ip = "192.168.56.101"
+$vm_name = "OBI Notes2PHP"
+
